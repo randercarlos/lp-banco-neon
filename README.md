@@ -24,9 +24,11 @@
 
 <br>
 
-<p align="center">
-[Clique aqui para acessar o projeto online](https://lp-redesign-bank.netlify.app/) 
-</p>
+<div align="center" style="font-size: 1rem">
+
+[Clique aqui para acessar o projeto online](https://lp-redesign-bank.netlify.app/)
+
+</div>
 
 <br>
 
