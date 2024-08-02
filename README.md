@@ -24,7 +24,7 @@
 
 <br>
 
-<div align="center" style="font-size: 1rem">
+<div align="center" style="font-size: 1.2rem">
 
 [Clique aqui para acessar o projeto online](https://lp-redesign-bank.netlify.app/)
 
