@@ -81,6 +81,6 @@ Baixe o arquivo zip e o descompacte ou baixe o projeto para sua máquina atravé
 
 - Acesse o site na porta configurada do servidor web...
 
-Desenvolvido por Rander Carlos :wave: [<img alt="License" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/rander-carlos-308a63a8//)
+Desenvolvido por Rander Carlos :wave: [<img alt="License" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/rander-carlos-308a63a8)
 [<img alt="License" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](randerccf@gmail.com)
 
