@@ -43,7 +43,7 @@ Esse projeto é um redesenho do site institucional do banco Neon como projeto pr
 desenvolvedor frontend da Codeboost.
 
 
-## 💻 Funcionalidades
+## ✅ Funcionalidades
 
 - O sistema possui possui design 100% responsivo usando breakpoints para adaptação do layout aos dife
 rentes dispositivos existentes. 
