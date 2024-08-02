@@ -65,12 +65,34 @@
         <img src="/img/logo.svg" alt="">
       </a>
       <nav>
+        <div class="dropdown js-dropdown">
+          <div class="item">
+            <strong>Cartão de crédito</strong>
+            <p>Cartão de crédito sem anuidade</p>
+          </div>
+          <div class="item">
+            <strong>Cartão pré-pago</strong>
+            <p>Cartão de débito internacional Neon</p>
+          </div>
+          <div class="item">
+            <strong>Neon Mais</strong>
+            <p>4 saques grátis para quem compra com a Neon</p>
+          </div>
+          <div class="item">
+            <strong>Investimentos</strong>
+            <p>A evolução da poupança</p>
+          </div>
+          <div class="item">
+            <strong>Empréstimo pessoal</strong>
+            <p>Faça uma simulação de empréstimo pessoal</p>
+          </div>
+        </div>
         <ul>
-          <li><a href="">Produtos Neon</a></li>
-          <li><a href="">Conta digital PJ</a></li>
-          <li><a href="">Quem somos</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Ajuda</a></li>
+          <li class="js-btn-dropdown"><a href="">Produtos Neon</a></li>
+          <li><a href="#">Conta digital PJ</a></li>
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Ajuda</a></li>
         </ul>
         <button class="btn-secondary white">Abra sua conta digital</button>
 
@@ -386,7 +408,9 @@
       <div class="msg">
         <div class="icon">😀</div>
         <p>Oi! Leu até aqui? Você se preocupa com os mínimos detalhes, mesmo. A gente também. Por isso o time Neon
-          está sempre trabalhando para fazer a conta digital perfeita para você ; )</p>
+          está sempre trabalhando para fazer a conta digital perfeita para você ; )
+          <span class="createdBy">Desenvolvido por <a href="https://www.linkedin.com/in/rander-carlos-308a63a8" title="Linkedin" alt="Linkedin">Rander Carlos</a></span>
+        </p>
       </div>
     </div>
   </footer>
@@ -424,6 +448,18 @@
       duration: 1300,
       once: true
     });
+
+    const btnDropdown = document.querySelector(".js-btn-dropdown");
+    const dropdown = document.querySelector(".js-dropdown");
+
+    function toggleDropdown(event) {
+      event.preventDefault();
+
+      dropdown.classList.toggle("active");
+    }
+
+    btnDropdown.addEventListener("click", toggleDropdown);
+    dropdown.addEventListener("mouseleave", toggleDropdown);
   </script> 
 </body>
 

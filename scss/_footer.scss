@@ -134,6 +134,16 @@ footer {
       color: $white;
       opacity: 0.8;
     }
+    .createdBy {
+      margin-top: 2rem;
+      display: block;
+      text-align: center;
+      a {
+        color: $white;
+        text-decoration: underline;
+        color: skyblue;
+      }
+    }
   }
 
   @include responsive(1050px) {
