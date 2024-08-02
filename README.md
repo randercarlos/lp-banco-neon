@@ -32,6 +32,10 @@
 
 <br>
 
+<div align="center">
+  <img src="site.png" alt="Imagem do site do banco Neon" />
+</div>
+
 ## :rocket: Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
