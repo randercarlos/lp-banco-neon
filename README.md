@@ -24,7 +24,9 @@
 
 <br>
 
-Projeto pode ser acessado clicando na imagem ao lado: [https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white](https://lp-redesign-bank.netlify.app/) 
+<p align="center">
+[Clique aqui para acessar o projeto online](https://lp-redesign-bank.netlify.app/) 
+</p>
 
 <br>
 
