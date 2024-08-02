@@ -1,6 +1,6 @@
-<h4 align="center">
+<h1 align="center">
   🚀 Redesenho do Site do Banco Neon
-</h4>
+</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
