@@ -59,10 +59,10 @@
   </head>
 
 <body>
-  <header>
+  <header id="js-header">
     <div class="container">
       <a href="" class="logo">
-        <img src="/img/logo.svg" alt="">
+        
       </a>
       <nav>
         <div class="dropdown js-dropdown">
@@ -451,6 +451,12 @@
 
     const btnDropdown = document.querySelector(".js-btn-dropdown");
     const dropdown = document.querySelector(".js-dropdown");
+    const header = document.getElementById("js-header");
+
+    btnDropdown.addEventListener("click", toggleDropdown);
+    dropdown.addEventListener("mouseleave", toggleDropdown);
+    document.addEventListener("scroll", fixedHeader);
+
 
     function toggleDropdown(event) {
       event.preventDefault();
@@ -458,8 +464,13 @@
       dropdown.classList.toggle("active");
     }
 
-    btnDropdown.addEventListener("click", toggleDropdown);
-    dropdown.addEventListener("mouseleave", toggleDropdown);
+    function fixedHeader(event) {
+      if (window.pageYOffset > 80) {
+        header.classList.add("fixed-header");
+      } else {
+        header.classList.remove("fixed-header");
+      }
+    }
   </script> 
 </body>
 
